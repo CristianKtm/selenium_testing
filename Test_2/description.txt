@@ -1,2 +1,14 @@
 For now, the test is not working 100%(from 13 tests there is 1 failed but not for good) because of the different location names 
 (there are some added characters to the location names after search page is loaded) but I will change the code by Friday.
+
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 13, Passes: 12, Failures: 1, Skips: 0
+===============================================
