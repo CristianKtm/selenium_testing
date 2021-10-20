@@ -156,10 +156,9 @@ public class test_1 {
 	@Test(dataProvider ="test-data")
 	public void search_test(String webResult, String ident) throws InterruptedException {
 
-		if(webResult != null)     
-			Assert.assertTrue(webResult.contains("Dubai Marina"));
-		else
-			Assert.assertTrue(false);
+		   
+		Assert.assertTrue(webResult.contains("Dubai Marina"));
+		
 
 	}
 
