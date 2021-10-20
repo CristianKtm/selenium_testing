@@ -1,0 +1,16 @@
+
+I ran the test using Eclipse along side with Selenium and the webdriver for Chrome browser.
+
+For the testing part I used TestNG because this is the framework I know best for software testing.
+
+My results after running the test:
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 3766, Passes: 3766, Failures: 0, Skips: 0
+===============================================
