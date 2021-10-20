@@ -74,6 +74,7 @@ public class test_2 {
 
 		for(int i = 0 ;i < list.size() ; i++) {
 
+			String[] split = null;
 
 			// refresh the web elements 
 			div = driver.findElement(By.xpath("//div[@class='fc910dcd']"));
@@ -98,6 +99,10 @@ public class test_2 {
 			String location = aux1.findElement(By.xpath(".//span[@class='_0ab46ba6']")).getText();
 			String type = aux3.findElement(By.xpath(".//span[@class='fontCompensation']")).getText();
 
+			split = location_before_click.split("-()");
+
+			if(split != null)
+				location_before_click = split[0];
 
 			//prepare input for test method	
 			obj[i][0] = purpose;
