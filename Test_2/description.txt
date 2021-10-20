@@ -12,3 +12,32 @@ For now, the test is not working 100%(from 13 tests there is 1 failed but not fo
 Default suite
 Total tests run: 13, Passes: 12, Failures: 1, Skips: 0
 ===============================================
+
+Looks fine after the update..
+
+Result from eclipse:
+
+PASSED: load_search_test("Rent", "The Greens", "Apartment", "The Greens")
+PASSED: load_search_test("Rent", "Jumeirah Lake Towers (JLT)", "Apartment", "Jumeirah Lake Towers")
+PASSED: load_search_test("Rent", "Business Bay", "Apartment", "Business Bay")
+PASSED: load_search_test("Rent", "Dubai Silicon Oasis", "Apartment", "Dubai Silicon Oasis")
+PASSED: load_search_test("Rent", "Motor City", "Apartment", "Motor City")
+PASSED: load_search_test("Rent", "Jumeirah Village Circle (JVC)", "Apartment", "Jumeirah Village Circle")
+PASSED: load_search_test("Rent", "Green Community", "Apartment", "Green Community")
+PASSED: load_search_test("Rent", "Dubai Marina", "Apartment", "Dubai Marina")
+PASSED: load_search_test("Rent", "Dubai Sports City", "Apartment", "Dubai Sports City")
+PASSED: load_search_test("Rent", "Downtown Dubai", "Apartment", "Downtown Dubai")
+PASSED: load_search_test("Rent", "Palm Jumeirah", "Apartment", "Palm Jumeirah")
+PASSED: load_search_test("Rent", "Dubai Production City (IMPZ)", "Apartment", "Dubai Production City ")
+PASSED: load_search_test("Rent", "Jumeirah Beach Residence (JBR)", "Apartment", "Jumeirah Beach Residence")
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 13, Passes: 13, Failures: 0, Skips: 0
+===============================================
